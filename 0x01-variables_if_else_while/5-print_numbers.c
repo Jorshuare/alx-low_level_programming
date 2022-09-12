@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - print single digit numbers
@@ -9,16 +11,15 @@
  */
 int main(void)
 {
-	int i;
+	char c = '0';
 
-	i = 48;
 
-	while (i < 58)
+	while (i <= '9')
 	{
 		putchar(i);
 		i++;
 	}
-	putchar(10)
+	putchar('\);
 
 
 	return (0);
