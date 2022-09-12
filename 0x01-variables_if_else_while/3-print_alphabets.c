@@ -1,8 +1,17 @@
 #include <stdio.h>
 
+/**
+ * main - prints the alphabets
+ *
+ * Description: prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ *
+ *Return: Always 0 (success)
+ */
+
 int main(void)
 {
 	int i, j;
+	
 	i = 97;
 	j = 65;
 
