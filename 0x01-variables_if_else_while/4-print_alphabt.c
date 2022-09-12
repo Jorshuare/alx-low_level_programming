@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - print the letter of the alphabets
@@ -11,7 +11,7 @@ int main(void)
 {
 	int i = 97;
 
-	while (i < 123);
+	while (i < 123)
 	{
 
 		if (i != 101 && i !=113)
@@ -21,8 +21,8 @@ int main(void)
 		i++;
 
 	}
-	putchar(10);
 
+	putchar(10);
 	return (0);
 
 }
