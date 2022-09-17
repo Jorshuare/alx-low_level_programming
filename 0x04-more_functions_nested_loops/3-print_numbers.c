@@ -4,14 +4,14 @@
 /**
  * print_numbers - function that print all numbers from 0 to 9, followed by  a new line.
  *
- * Return: return nothing
+ * Return: returns nothing
  */
 
 void print_numbers(void)
 {
 	int n;
 	
-	for (n = 0; n < 10; n++)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
