@@ -2,7 +2,6 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
-
 /**
  * print_all - prints anything
  *
@@ -48,7 +47,6 @@ void print_all(const char * const format, ...)
 			}
 			delimiter = ", ";
 			i++;
-
 		}
 	}
 	printf("\n");
