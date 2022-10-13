@@ -7,7 +7,7 @@
  *
  * @n: the number of arguments
  *
- * return: the result
+ * Return: the result
  */
 
 int sum_them_all(const unsigned int n, ...)
