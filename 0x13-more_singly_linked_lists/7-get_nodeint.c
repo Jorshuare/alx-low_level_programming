@@ -6,18 +6,21 @@
  * @index: index of the node to return
  *
  * Return: pointer to the indexed node
+ * NULL if the node does not exist
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	unsigned int i;
+	unsigned int i = 0;
 
-	if (head == NULL)
+	if (!(head))
 		return (NULL);
-	for (i = 0; i < index; i++)
+	while (head && i < index)
 	{
 		head = head->next;
-		if (head == NULL)
-			return (NULL);
+		i++;
 	}
-	return (head);
+	if (!(head))
+		return (NULL);
+	else
+		return (NULL);
 }
