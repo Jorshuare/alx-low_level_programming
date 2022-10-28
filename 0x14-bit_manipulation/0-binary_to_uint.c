@@ -38,7 +38,7 @@ unsigned int binary_to_uint(const char *b)
 	while (str_len)
 	{
 		decimal += ((b[str_len - 1] - '0') * base);
-		base *=2;
+		base *= 2;
 		str_len--;
 	}
 
