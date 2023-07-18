@@ -3,9 +3,10 @@
 /**
  * main - print the letter of the alphabets
  *
- * Description: print the letters of the alphabets except e, q
+ * Description: prints the letters of the alphabets except e, q
  *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
